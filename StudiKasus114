@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class StudiKasus114 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Deklarasi variabel sesuai flowchart
+        int hargaPerCup = 18000;
+        int jumlahCup, uangBayar;
+        int totalHarga, diskon = 0, totalBayar;
+        int kembalian, kurang;
+
+        // Input dari pengguna
+        System.out.print("Masukkan jumlah cup : ");
+        jumlahCup = scanner.nextInt();
+        System.out.print("Masukkan uang bayar : ");
+        uangBayar = scanner.nextInt();
+
+       
+    }
+}

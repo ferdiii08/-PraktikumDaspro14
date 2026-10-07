@@ -34,30 +34,5 @@ public class StudiKasus214 {
                 alasan = "Peringkat juara tidak memenuhi syarat untuk menerima dana penghargaan.";
             }
 
-        } else if (jenisKegiatan.equalsIgnoreCase("PKM")) {
-            System.out.print("Status pendanaan PKM (1 = lolos, 0 = tidak lolos) : ");
-            int statusPKM = sc.nextInt();
-
-            if (statusPKM == 1) {
-                if (jumlahDokumen == 4) {
-                    berhakDana = true;
-                    alasan = "Lolos pendanaan PKM dan dokumen lengkap.";
-                } else {
-                    alasan = "Dokumen tidak lengkap (kurang " + (4 - jumlahDokumen) + " dokumen). Dana penghargaan tidak diberikan.";
-                }
-            } else {
-                alasan = "PKM tidak lolos pendanaan.";
-            }
-
-        } else {
-            alasan = "Jenis kegiatan tidak memperoleh dana penghargaan.";
-        }
-        // Output 
-        if (berhakDana) {
-            System.out.println("Menerima dana penghargaan: (" + alasan + ")");
-        } else {
-            System.out.println(": " + alasan);
-        }
-        sc.close();
     }
 }

@@ -3,7 +3,7 @@ Nama   : Ferdi irawan
 NIM    :264107060202
 Kelas  :SIB 1A
 
-Hasil Uji Studi Kasus 2 oleh <Nama>
+Hasil Uji Studi Kasus 2 oleh Sultan Muhammad Adji Pratama
 | No | Jenis | Dokumen | Juara/Dana | Output | Sesuai? |
 |----|-------|---------|------------|---------|---------|
 | 1 | Bakorma | 3 | 1 | Tidak Berhak | Ya |
